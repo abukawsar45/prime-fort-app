@@ -54,8 +54,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className='bg-slate-500 w-full fixed h-16 top-0 -mx-12'>
-      <div className='flex px-4 py-2 md:px-12 justify-between items-center text-font'>
+    <div className='bg-black z-10 w-full fixed py-4 top-0 transition-colors duration-300 ease-in bg-transparent  backdrop-blur'>
+      <div className='flex justify-between items-center text-font'>
       <div className='lg:hidden'>
           <label tabIndex={0} className=' lg:hidden '>
             <svg
